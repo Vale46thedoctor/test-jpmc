@@ -9,6 +9,6 @@ setup(
     author='supersyro',
     author_email='',
     #py_modules=["uvicorn" , "fastapi", "pydantic", "dotenv"],
-    install_requires=["uvicorn" , "fastapi", "pydantic", "dotenv"],
+    install_requires=["uvicorn" , "fastapi", "pydantic", "python-dotenv"],
     description='setup.py for jpmc project'
 )
