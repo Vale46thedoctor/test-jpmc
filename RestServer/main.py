@@ -1,6 +1,5 @@
 import os
 import random
-import scipy.stats
 import uvicorn
 from fastapi import FastAPI, Response, status
 from pydantic import BaseModel
