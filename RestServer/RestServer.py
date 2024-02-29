@@ -17,14 +17,15 @@ async def test(req: Request, response: Response):
     result = t[random.randrange(1, 10)]
     #print(result)
     #print(req)
-    if(result == True):
-        return 'World'
+    if(req.data == "Hello"):
+        if(result == True):
+            return 'World'
+        else:
+            response.status_code = status.HTTP_500_INTERNAL_SERVER_ERROR
+            return 'Error'
     else:
-        response.status_code = status.HTTP_500_INTERNAL_SERVER_ERROR
-        return 'Error'
-
-
-
+        response.status_code = status.HTTP_400_BAD_REQUEST
+        return 'Incorrect text'
 
 if __name__ == "__main__":
     uvicorn.run(app, host=os.getenv("SERVER_HOST"), port=os.getenv("SERVER_PORT"))

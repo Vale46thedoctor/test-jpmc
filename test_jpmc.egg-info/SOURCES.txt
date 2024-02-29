@@ -2,8 +2,7 @@ README.md
 setup.py
 RestClient/RestClient.py
 RestClient/TestClient.py
-RestServer/TestClient.py
-RestServer/main.py
+RestServer/RestServer.py
 test_jpmc.egg-info/PKG-INFO
 test_jpmc.egg-info/SOURCES.txt
 test_jpmc.egg-info/dependency_links.txt

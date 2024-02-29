@@ -8,7 +8,7 @@ setup(
     license='',
     author='supersyro',
     author_email='',
-    #py_modules=["uvicorn" , "fastapi", "pydantic", "dotenv"],
+    #py_modules=["unittest" ],
     install_requires=["uvicorn" , "fastapi", "pydantic", "python-dotenv"],
     description='setup.py for jpmc project'
 )

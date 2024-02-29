@@ -5,3 +5,7 @@ Summary: setup.py for jpmc project
 Home-page: 
 Author: supersyro
 Author-email: 
+Requires-Dist: uvicorn
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
